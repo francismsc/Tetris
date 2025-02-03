@@ -109,7 +109,7 @@ public class GameController : MonoBehaviour
             MoveDown();
         }
 
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.Q) || Input.GetKeyDown(KeyCode.UpArrow))
         {
             Rotate();
         }
